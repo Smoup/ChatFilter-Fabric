@@ -4,6 +4,8 @@
   "package": "org.smod.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "ChatNewMessage",
+    "SendChatMixin"
   ],
   "client": [
   ],

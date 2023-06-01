@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "smod",
   "version": "${version}",
-  "name": "SMod-ChatFilter-Fabric",
+  "name": "ChatFilter",
   "description": "Hides a chat message if it contains a word from the filter",
   "authors": [
     "Smoup"
@@ -16,10 +16,10 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "org.smod.client.SMod_ChatFilter_FabricClient"
+      "org.smod.client.ChatFilterClient"
     ],
     "main": [
-      "org.smod.SMod_ChatFilter_Fabric"
+      "org.smod.ChatFilter"
     ]
   },
   "mixins": [
