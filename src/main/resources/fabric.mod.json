@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "smod",
+  "version": "${version}",
+  "name": "SMod-ChatFilter-Fabric",
+  "description": "Hides a chat message if it contains a word from the filter",
+  "authors": [
+    "Smoup"
+  ],
+  "contact": {
+    "website": "https://vk.com/smoup",
+    "repo": "https://github.com/Smoup/ChatFilter-Fabric"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/smod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.smod.client.SMod_ChatFilter_FabricClient"
+    ],
+    "main": [
+      "org.smod.SMod_ChatFilter_Fabric"
+    ]
+  },
+  "mixins": [
+    "smod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
